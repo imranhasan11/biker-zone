@@ -93,3 +93,39 @@
 
      //do while loop
      //just opposite like while 
+
+
+    //string vs object
+    // string is immutable = not changeable
+    //array is mutable= changeable
+    const capital ='dhaka'
+    console.log(capital.length )
+
+    const price =[34,78,34,56,34,46]
+    price[2]=80;
+    console.log(price)
+    console.log(price.length)
+
+    // lowercase uppercase string trip
+    const subject ='Chemistry'
+    const book = 'chemistry'
+    if(subject.toLowerCase()===book.toUpperCase()){
+      console.log('i want to read')
+    }
+    else{
+      console.log('i dont  want to read')
+
+    }
+    //trim for space 
+
+
+    // string slice, join, concat, includes 
+    const address='muradpur'
+    const part=address.slice(2,5);
+    console.log(part)
+
+
+    //reverse string three ways
+
+    //
+
