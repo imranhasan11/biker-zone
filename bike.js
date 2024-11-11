@@ -127,5 +127,20 @@
 
     //reverse string three ways
 
-    //
+    // object properties and values
+
+      const tourPackage ={
+         cost:2000,
+         place:'chattogram',
+         vehicle:'car',
+         destination:'coxsbazar'
+      }
+      const props=Object.keys(tourPackage)
+      console.log(props)
+      const values=Object.values(tourPackage)
+      console.log(values)
+
+      for( varii in tourPackage){
+         console.log(varii)
+      }
 
