@@ -144,3 +144,65 @@
          console.log(varii)
       }
 
+         // module 20.5
+
+         // reverse or unshift
+
+         // Ascending and Descending
+          
+      let count=[5,8,0,7,8,4,9,2,45,76]
+      let count_asc=count.sort(function(a,b) {return a-b})
+      console.log(count_asc)
+
+       let count_dsc=count.sort(function(a,b) {return b-a})
+      console.log(count_dsc) 
+
+
+
+          // module 21 fundamentally of function 
+
+         
+         function fanOff(){
+            console.log( 'off kor')
+         }
+         fanOff();
+
+
+         function square (digit){
+            console.log(digit);
+            const sume =digit*digit
+            console.log(sume)
+         }
+         square(3);
+
+         function practice (num1,num2,num3){
+             const  division=num1*num2*num3;
+             const substruction=num3-num1;
+             const divide =num2/num1;
+             console.log(division,divide,substruction)
+         }
+         practice(5,25,30)
+
+         function add (price1,price2){
+            const total =price1*price2;
+            return total;
+         }
+         const result=add(456,879);
+         console.log(result)
+
+         function evenNumber (numbe){
+            if(numbe%2===0){
+               return true;
+            }
+            else{
+               return false;
+            }
+         }
+           console.log(evenNumber(8));
+            
+           
+
+
+
+
+      
